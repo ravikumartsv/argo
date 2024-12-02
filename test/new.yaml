@@ -34,4 +34,4 @@ spec:
     - protocol: TCP
       port: 80        # Port on which the service is exposed
       targetPort: 80   # Port on the pod
-  type: Clusterip  # You can change this to ClusterIP or NodePort based on your use case
+  type: NodePort  # You can change this to ClusterIP or NodePort based on your use case
